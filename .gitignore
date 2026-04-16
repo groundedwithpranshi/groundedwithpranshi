@@ -1,0 +1,12 @@
+node_modules
+dist
+.env
+.DS_Store
+.vercel
+sanity/node_modules
+sanity/dist
+sanity/.env
+full-sanity-data.json
+fetch-full-sanity.js
+sync-content.mjs
+debug-sanity*

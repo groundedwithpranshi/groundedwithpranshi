@@ -1,0 +1,633 @@
+{
+  "homeContent": {
+    "ctaLabel": "Book a Session",
+    "eyebrow": "Inner Work ΓÇó Cosmic Clarity ΓÇó Soul Healing",
+    "heroLead": "A nourishing space for spiritual astrology, akashic readings, shadow work, and healing sessions that help you reconnect with your truth and move forward with confidence.",
+    "heroTitle": "Welcome to groundedwithpranshi",
+    "supportItems": [
+      "Spiritual astrology for direction and self-awareness",
+      "Psychic readings for deeper soul insights",
+      "Shadow work for emotional transformation",
+      "Healing services for nervous system and energy support"
+    ],
+    "supportTitle": "How I support you"
+  },
+  "aboutContent": {
+    "approach": "Every session blends intuition with structure, so the right guidance and insight becomes a meaningful next step in your daily life.",
+    "bioParagraphs": [
+      "Pranshi Jaiswal is the founder and editor behind a multidisciplinary magazine dedicated to exploring the connections between the mind, body, and the subtle dimensions of human experience. With a background in research and a deep personal interest in psychology, astrology, bioelectromagnetic energy field and consciousness studies, her work brings together metaphysics, science, intuition, and everyday living.",
+      "Through this platform, she curates and writes about topics that bridge modern research and holistic wisdom. The magazine explores the advancement possibilities that comes up in human evolution through the neurobiological aspect of the brain, human energetic field, breath work and meditation, blend them with ancient texts, spiritual astrology, philosophy, healing modalities alongside creative and sensory aspects of life such as music, cultural traditions, literary arts and aesthetics, and satiating cooking recipes focusing on holistic health. Her approach views well-being not as a single practice but as an ecosystem where cognitive growth, spiritual clarity, emotional balance, creativity, nourishment, and beauty all interact.",
+      "Pranshi contributes original essays, reviews research and articles, and curates thoughtful content that invites readers to understand the cognitive-brain functioning and the psychology that runs with it, energy as a vibrational and holistic function, and consciousness along with subtle ancient science of astrology; while also reconnecting with slower, more intentional ways of living through philosophy, meditation, physical movement, and cultural and literary arts. From discussions on human experiences and reflections on various reads to healthy cooking and fabricating the sensual essence of classical music and poetry, her work aims to create a space where knowledge, beauty and lived experience meet.",
+      "Through this magazine, she hopes to encourage curiosity about the inner world, the interconnectedness of macrocosm and microcosm, inspire holistic self-care, and explore the many dimensional ways of science, healing, creativity, daily rituals shape human well-being, and live a little more through beauty, culture and arts."
+    ],
+    "lead": "I'm just another soul on its journey, exploring the connections between mind, body, soul and the subtle dimensions of human experience.",
+    "mission": "To help you feel grounded in your body, clear in your mind, and connected with the universe.",
+    "noteParagraph1": "This space is a blend of research, healing, and spiritual awareness, created to support meaningful transformation in daily life.",
+    "noteParagraph2": "I believe growth is most powerful when it is both intuitive and grounded, where self-inquiry meets practical integration.",
+    "noteTitle": "A note from Pranshi",
+    "title": "About Pranshi Jaiswal"
+  },
+  "servicesContent": {
+    "consultationItems": [
+      "Astrological Reading",
+      "Tarot and Psychic Reading",
+      "Aura Reading",
+      "Holistic Health Consultation"
+    ],
+    "consultationPrice": "$30",
+    "consultationTitle": "30 Min Live Consultation",
+    "healingItems": [
+      "Live Healing - $80",
+      "1 Month Healing - $180",
+      "3 Months Healing - $320"
+    ],
+    "healingTitle": "Healing Services",
+    "title": "Services",
+    "writtenReportsItems": [
+      "Love and Relationships Reading",
+      "Pending Karma Reading",
+      "Career Reading",
+      "Health Reading",
+      "Wealth Reading",
+      "Soul's Purpose Reading",
+      "Aura Reading"
+    ],
+    "writtenReportsPrice": "$30",
+    "writtenReportsTitle": "Written Reports"
+  },
+  "researchContent": {
+    "categories": [
+      {
+        "_key": "b556957c17a6",
+        "_type": "category",
+        "description": "Mapping symbolic patterns of planetary behavioral energies and an attempt to understand the science of astrology",
+        "items": [
+          "Transits and behavior cycles",
+          "Planetary symbolism in personal development"
+        ],
+        "title": "Astrology - Case Studies"
+      },
+      {
+        "_key": "107703d801b3",
+        "_type": "category",
+        "description": "Integrating trauma-aware methods, somatic tools, and energetic hygiene.",
+        "items": [
+          "Breath and vagal toning techniques",
+          "Daily energetic hygiene models"
+        ],
+        "title": "Energy and regulation"
+      },
+      {
+        "_key": "c0af41c59a0c",
+        "_type": "category",
+        "description": "Research-backed reflective methods for safer and sustainable inner work.",
+        "items": [
+          "Parts work and projection awareness",
+          "Reflective writing and integration protocols"
+        ],
+        "title": "Conscious shadow integration"
+      },
+      {
+        "_key": "b54222618fd2",
+        "_type": "category",
+        "description": "A whole-person model balancing spiritual insight with practical lifestyle support.",
+        "items": [
+          "Sleep, stress, and emotional resilience",
+          "Mind-body-spirit wellbeing frameworks"
+        ],
+        "title": "Holistic wellbeing"
+      }
+    ],
+    "lead": "Notes, references, and frameworks that inform groundedwithpranshi practices.",
+    "title": "Research"
+  },
+  "contactContent": {
+    "details": [
+      "Email: groundedwithpranshi@zohomail.in",
+      "Facebook: Groundedwithpranshi",
+      "Response time: within 24-48 hours"
+    ],
+    "email": "groundedwithpranshi@zohomail.in",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61576501767624&sk=about",
+    "lead": "Reach out for collaborations, queries, or a personalized recommendation for the right session.",
+    "title": "Contact Us",
+    "whatsappUrl": "https://wa.me/917803938135"
+  },
+  "blogCategories": [
+    {
+      "_key": "45a0cd7cd096",
+      "_type": "category",
+      "description": "Explore astrology as a path of inner alignment, timing wisdom, and soul growth in everyday life.",
+      "items": [
+        "Saturn Return, But Make It Healing: A Compassionate Guide",
+        "When Life Feels Delayed: The Spiritual Meaning of Planetary Timing",
+        "Moon Tracking for Emotional Clarity: A 28-Day Reflective Practice",
+        "North Node Lessons: How to Follow Your Soul's Honest Direction",
+        "Mercury Retrograde as Repair Season: Revisit, Reframe, Realign",
+        "From Fear to Faith in Astrology: Reading Your Chart Without Doom",
+        "Astrology and Free Will: How to Use Transits as Conscious Choices"
+      ],
+      "title": "Spiritual Astrology"
+    },
+    {
+      "_key": "8b518ecb101f",
+      "_type": "category",
+      "description": "Grounded tools for emotional energy, boundaries, regulation, and subtle self-awareness.",
+      "items": [
+        "Energetic Boundaries Without Guilt: Scripts and Daily Habits",
+        "Why You Absorb Other People's Emotions (and How to Release Them)",
+        "A 5-Minute Morning Energy Reset for Sensitive Nervous Systems",
+        "Signs Your Energy Is Scattered and How to Call It Back",
+        "Protection vs Presence: The Most Misunderstood Part of Energy Work",
+        "Social Exhaustion Recovery: A Gentle Evening Ritual",
+        "Body-Based Grounding for Busy Days: Breath, Touch, and Focus"
+      ],
+      "title": "Energy"
+    },
+    {
+      "_key": "c93bdfe483f0",
+      "_type": "category",
+      "description": "Mind-body-spirit wellbeing practices that support resilience, rest, nourishment, and meaningful daily rhythm.",
+      "items": [
+        "Nervous System Hygiene: The Daily Practice Most People Skip",
+        "Sleep for Intuitive People: How to Wind Down Without Overthinking",
+        "Food, Mood, and Subtle Energy: Eating for Emotional Steadiness",
+        "Micro-Rituals for Burnout Days: Small Practices That Truly Help",
+        "Holistic Self-Care as an Ecosystem, Not a Checklist",
+        "Emotional Regulation Through Rhythm: Morning, Midday, and Night",
+        "How to Build a Sustainable Healing Routine You Will Actually Keep"
+      ],
+      "title": "Holistic Health"
+    }
+  ],
+  "blogArticles": [
+    {
+      "_key": "45b8bb54739d",
+      "_type": "article",
+      "category": "Spiritual Astrology",
+      "content": "In real life, spiritual work is tested in ordinary choices: deadlines, relationships, health routines, and moments of uncertainty. The Bhagavad Gita offers a practical anchor in Verse 2.47: we are responsible for action, not for controlling outcomes.\n\nThis teaching is not passive. It asks for full participation. You still prepare, show up, communicate, apologize, begin again. But you release the demand that life must obey your timeline. In astrology language, this is the difference between working with timing and fighting it.\n\nA simple way to practice this is to divide your day into two columns: what is in your hands and what is not. Your hands: discipline, tone, honesty, effort, prayer, patience. Not in your hands: other people's readiness, instant validation, perfect certainty. This single distinction restores emotional energy.\n\nWhen applied to transits, this perspective changes everything. Saturn periods become training in commitment. Retrogrades become windows for review rather than panic. Lunar intensity becomes data for self-awareness instead of proof that something is wrong. You are still acting, but less entangled.\n\nKarma yoga is therefore not abstract philosophy. It is nervous-system hygiene. When we act with sincerity and loosen obsession over results, we remain available to learning. We become less reactive, more truthful, and more capable of long-term alignment.\n\nA good closing reflection is: I will do this work with devotion, and I will not abandon myself if the result arrives differently than expected. That is strength with softness. That is spiritual maturity in motion.",
+      "excerpt": "How the Gita's teaching on action without attachment can guide decision-making, timing, and inner steadiness.",
+      "featuredImage": "https://images.unsplash.com/photo-1518457607834-6e8d80c183c5?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Night sky with stars and spiritual light",
+      "references": [
+        {
+          "_key": "6bb0678bda45",
+          "_type": "sourceLink",
+          "label": "Bhagavad Gita 2.47 (translation and commentary)",
+          "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47/"
+        },
+        {
+          "_key": "3f31b7af7170",
+          "_type": "sourceLink",
+          "label": "Bhagavad-gita As It Is 2.47",
+          "url": "https://vedabase.io/en/library/bg/2/47/"
+        }
+      ],
+      "title": "Karma Without Anxiety: A Living Practice from the Bhagavad Gita"
+    },
+    {
+      "_key": "b117ddd06280",
+      "_type": "article",
+      "category": "Holistic Health",
+      "content": "The Katha Upanishad gives one of the most elegant maps of inner life: the body is the chariot, senses are the horses, mind is the reins, intellect is the charioteer, and the Self is the one being carried.\n\nThis metaphor is deeply useful for holistic wellbeing. On hard days, many people try to suppress emotion or force productivity. The chariot teaching suggests another approach: strengthen the reins, clarify the driver, and choose the path carefully.\n\nReins (mind) means attentional discipline. If your attention is scattered by doom-scrolling, comparison, and unresolved conversations, the horses become wild. A practical correction is sensory simplification: fewer tabs, one task, slower breath, and intentional transitions between activities.\n\nDriver (intellect) means discernment. You ask: what is useful now? What is true now? What will serve tomorrow-me? This moves you from impulse to wise response.\n\nHorses (senses) are not enemies. They require training, not punishment. Sleep rhythm, food rhythm, media rhythm, and social rhythm are all part of spiritual practice when viewed through this lens.\n\nThe Upanishadic instruction to arise and awake is not only mystical. It is behavioral. Wake up to your patterns. Wake up to what drains you. Wake up to what restores you. This is how the journey changes from repetition to conscious direction.\n\nWhen mind and discernment cooperate, the chariot becomes steady. Then deeper practices such as meditation, prayer, and contemplation stop feeling distant. They become natural extensions of a life that is already ordered around awareness.",
+      "excerpt": "The body as chariot, mind as reins, intellect as charioteer: an ancient map for modern self-regulation.",
+      "featuredImage": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Calm road with mountains symbolizing guided direction",
+      "references": [
+        {
+          "_key": "f9b0e0d6af4f",
+          "_type": "sourceLink",
+          "label": "Katha Upanishad (Sacred Texts, Third Valli)",
+          "url": "https://sacred-texts.com/hin/sbe15/sbe15012.htm"
+        },
+        {
+          "_key": "9156354f2bb4",
+          "_type": "sourceLink",
+          "label": "Katha Upanishad 1.3.3 commentary",
+          "url": "https://www.wisdomlib.org/hinduism/book/katha-upanishad-shankara-bhashya/d/doc145206.html"
+        }
+      ],
+      "title": "The Chariot Within: Katha Upanishad for Emotional Regulation"
+    },
+    {
+      "_key": "1c50ab2dd02e",
+      "_type": "article",
+      "category": "Energy",
+      "content": "Many spiritual seekers try to stop thoughts by force and then feel discouraged. Osho's teaching on witnessing offers a gentler sequence: first become conscious in action, then witness thoughts, then rest in awareness.\n\nIn this view, witnessing is not suppression and not analysis. It is a shift in relationship. Thoughts may still appear, but you stop climbing into each one. You notice them like passing traffic. This reduces energetic leakage because emotional charge is not fed continuously.\n\nA simple daily protocol: begin with the body for three minutes. Feel the feet, shoulders, breath. Then watch the mind for five minutes without correcting it. Label gently: planning, remembering, worrying, imagining. Finally, sit in quiet for two minutes with no technique, allowing presence to settle.\n\nThis three-step structure is useful for sensitive people who feel overloaded. Instead of spiritual pressure, it creates a compassionate progression. Awareness is trained through consistency, not intensity.\n\nWitnessing also helps in relationships. Before reacting, pause and observe the inner surge: fear, pride, hurt, urgency. This tiny witnessing gap often prevents unnecessary conflict and restores dignity.\n\nOver time, the practitioner discovers a profound shift: identity moves from content to consciousness. You still feel deeply, but you are less possessed by each wave. In energetic terms, you become more coherent. In spiritual terms, you become available to silence.\n\nThe essence is simple: do not fight the mind; outgrow identification with it. Witnessing is the bridge. Awareness is the flowering.",
+      "excerpt": "A practical witnessing method inspired by Osho's discourse on awareness and no-mind.",
+      "featuredImage": "https://images.unsplash.com/photo-1474418397713-7ede21d49118?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Meditation silhouette at sunrise",
+      "references": [
+        {
+          "_key": "8d3045fcafad",
+          "_type": "sourceLink",
+          "label": "OSHO Online Library: Witnessing, Thoughts, Suchness",
+          "url": "https://www.osho.com/osho-online-library/osho-talks/witnessing-thoughts-suchness-baac6dac-ef2?p=d7e571a2be62f5a671f45c2d063c8e93"
+        },
+        {
+          "_key": "59d926fbfd8f",
+          "_type": "sourceLink",
+          "label": "OSHO Online Library: Consciously, Witness, Move",
+          "url": "https://www.osho.com/osho-online-library/osho-talks/consciously-witness-move-4d3dfaa6-273?p=b8118178546f4c3ea03c79266911ad58"
+        }
+      ],
+      "title": "From Thought to Witness: An Osho-Inspired Meditation Framework"
+    },
+    {
+      "_key": "d0cb01a62221",
+      "_type": "article",
+      "category": "Spiritual Astrology",
+      "content": "Bhagavad Gita 6.5 offers a direct instruction that feels remarkably modern: uplift yourself through your own mind, and do not let that same mind pull you down. The verse names a truth every seeker discovers sooner or later: the same inner instrument can become friend or enemy.\n\nIn spiritual astrology work, this matters because timing alone is never enough. Two people can pass through similar transits and experience very different outcomes based on inner discipline. One rehearses fear and collapses into fatalism. The other practices steadiness, reflection, and right effort. The chart may describe weather; the mind decides how we travel through it.\n\nA grounded way to apply this teaching is the daily mental check-in: What thought am I feeding repeatedly? Is it strengthening agency or weakening it? If a thought drains dignity, rewrite it into a truthful, actionable sentence. This is not toxic positivity. It is responsible cognition.\n\nThe Gita's instruction also pairs beautifully with breath-based regulation. When agitation rises, lengthen exhale, soften shoulders, and return to one chosen duty. Action breaks the loop of helplessness. Mind becomes friend through consistent redirection, not one dramatic breakthrough.\n\nOver weeks, this creates a new inner climate. Instead of asking, Why is this happening to me?, we begin asking, What is this moment training in me? That question alone shifts the nervous system from collapse to participation.\n\nThe verse is compassionate because it gives power back. You are not asked to be perfect. You are asked to practice inner friendship deliberately. In healing terms, that means speaking to yourself with firmness and care at the same time.\n\nWhen mind serves purpose, spiritual growth becomes practical. You work with destiny, not against yourself.",
+      "excerpt": "A practical guide to turning the mind from saboteur into spiritual ally using Gita 6.5.",
+      "featuredImage": "https://images.unsplash.com/photo-1488866022504-f2584929ca5f?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Hands in prayer with soft light",
+      "references": [
+        {
+          "_key": "a7a22ee58fd4",
+          "_type": "sourceLink",
+          "label": "Bhagavad-gita As It Is 6.5",
+          "url": "https://vedabase.io/en/library/bg/6/5/"
+        },
+        {
+          "_key": "548e67009a02",
+          "_type": "sourceLink",
+          "label": "Bhagavad Gita 6.5 translation",
+          "url": "https://gita.pub/chapter/6/verse/5"
+        }
+      ],
+      "title": "Your Inner Ally: Bhagavad Gita 6.5 and the Training of Mind"
+    },
+    {
+      "_key": "3542afe5cb70",
+      "_type": "article",
+      "category": "Spiritual Astrology",
+      "content": "Many people approach astrology searching for guarantees: the perfect date, the certain outcome, the exact sign that all pain will end. But the Gita's teaching on action and non-attachment reframes the whole process. You are responsible for sincere action, not for forcing results.\n\nThis principle creates an ethical way to read charts. A transit is not a verdict. It is an invitation to specific inner work. Saturn can invite structure, Moon cycles can reveal emotional tides, and Mercury retrograde can support revision. None of these remove free participation.\n\nWhen we confuse astrology with control, anxiety increases. Every delay looks like punishment, every challenge looks like failure, every uncertainty feels personal. But when we pair astrology with karma-yoga, interpretation becomes cleaner: what is my dharma here? What is my next honest action?\n\nA practical method is threefold: discern timing, choose one duty, release obsession. Discern timing means noticing season and energy. Choose one duty means completing what is in your hands today. Release obsession means refusing to measure your worth by immediate result.\n\nThis approach protects spiritual health. It reduces superstition, improves decision quality, and keeps agency intact. You stop outsourcing self-trust to predictions and start using insight as guidance.\n\nSurrender here does not mean passivity. It means participating fully without emotional addiction to certainty. That is a mature spirituality: effort with humility, discipline with devotion.\n\nIn this way, astrology becomes a contemplative art, not a fear machine. It returns you to right relationship with time, action, and meaning.",
+      "excerpt": "How to read transits with responsibility instead of fear through karma-yoga principles.",
+      "featuredImage": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Cosmic sky over mountain range",
+      "references": [
+        {
+          "_key": "a025fb2f23a5",
+          "_type": "sourceLink",
+          "label": "Bhagavad Gita 2.47 (translation and commentary)",
+          "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47/"
+        },
+        {
+          "_key": "72924f36ae8d",
+          "_type": "sourceLink",
+          "label": "Bhagavad-gita As It Is 2.47",
+          "url": "https://vedabase.io/en/library/bg/2/47/"
+        }
+      ],
+      "title": "Timing, Duty, and Surrender: A Gita-Based Astrology Ethic"
+    },
+    {
+      "_key": "7c06776e39f1",
+      "_type": "article",
+      "category": "Energy",
+      "content": "When emotions spike, most people choose between expression and suppression. Osho's witnessing approach offers a third way: conscious observation in the middle of activity. Not withdrawal from life, but awareness within movement.\n\nThe method begins with the body. Walk consciously. Lift a cup consciously. Feel each transition instead of rushing through it. This may seem small, but it interrupts mechanical momentum and returns authority to awareness.\n\nSecond, observe thoughts without commentary. The key is non-judgment. The moment we evaluate every thought, witnessing collapses into mental noise again. Let thoughts pass like weather. Name lightly and return to breath.\n\nThird, watch mood tone. Many people only notice emotions after acting them out. Witnessing trains earlier recognition: irritation rising, fear tightening, shame shrinking posture. This early recognition creates choice.\n\nA powerful application is conflict preparation. Before important conversations, spend three minutes in conscious breathing and body sensing. Then ask: what am I believing right now? What do I want to protect? What is actually needed? This reduces projection and improves communication.\n\nWith repetition, the practitioner stops identifying with every inner event. This does not make one cold. It makes one clear. Emotional life remains rich, but less hijacking occurs.\n\nEnergy work becomes safer with this foundation because witnessing prevents spiritual bypass and emotional flooding. It brings discernment to intensity.\n\nUltimately, witnessing in motion is a devotional discipline: presence in each act, honesty in each reaction, and silence beneath each thought.",
+      "excerpt": "Use conscious movement and observation to reduce reactivity and restore energetic coherence.",
+      "featuredImage": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Person in mindful movement outdoors",
+      "references": [
+        {
+          "_key": "a48d4709d6b6",
+          "_type": "sourceLink",
+          "label": "OSHO Online Library: Consciously, Witness, Move",
+          "url": "https://www.osho.com/osho-online-library/osho-talks/consciously-witness-move-4d3dfaa6-273?p=b8118178546f4c3ea03c79266911ad58"
+        },
+        {
+          "_key": "5aef931340ac",
+          "_type": "sourceLink",
+          "label": "OSHO Online Library: Witnessing, Thoughts, Suchness",
+          "url": "https://www.osho.com/osho-online-library/osho-talks/witnessing-thoughts-suchness-baac6dac-ef2?p=d7e571a2be62f5a671f45c2d063c8e93"
+        }
+      ],
+      "title": "Witnessing in Motion: Applying Osho's Method to Emotional Overload"
+    },
+    {
+      "_key": "717212d7b60b",
+      "_type": "article",
+      "category": "Holistic Health",
+      "content": "Patanjali's classic definition of yoga, often translated as the stilling of the fluctuations of mind, is not only philosophical. It is clinically useful for modern stress lives. Mental fluctuation and physiological dysregulation often move together.\n\nWhen thoughts loop rapidly, breath shortens, shoulders brace, sleep quality drops, and digestive rhythm suffers. Stilling the fluctuations does not mean violent suppression. It means training attention to return, again and again, to steadiness.\n\nA practical protocol from this sutra: anchor, observe, reduce input. Anchor in one sensory point, like breath at nostrils. Observe dominant thought pattern without merging with it. Reduce one source of unnecessary stimulation for the next hour.\n\nThis triad supports both cognition and physiology. The brain receives a signal of relative safety, vagal tone improves, and decision-making becomes less reactive. Over time, this is not just meditation; it is trait-level resilience.\n\nHolistic health often fails when practices are too complex. Yoga Sutra 1.2 invites simplicity: fewer fluctuations, clearer seeing. Even five structured minutes repeated daily can shift baseline anxiety.\n\nThe sutra also protects from performance spirituality. The goal is not to have zero thoughts forever; the goal is to become less compelled by every fluctuation. This makes self-care sustainable and humane.\n\nIn healing journeys, consistency beats intensity. A modest daily stillness practice can gradually transform sleep, mood, and relational presence.\n\nThe mind becomes less turbulent, and the body follows.",
+      "excerpt": "What 'stilling the fluctuations of mind' means for modern stress regulation and embodied health.",
+      "featuredImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Still mountain lake symbolizing calm mind",
+      "references": [
+        {
+          "_key": "138384246d36",
+          "_type": "sourceLink",
+          "label": "Yoga Sutra 1.2 text and translation (Wisdomlib)",
+          "url": "https://www.wisdomlib.org/hinduism/book/yoga-sutras-study/d/doc628693.html"
+        },
+        {
+          "_key": "988432f56c47",
+          "_type": "sourceLink",
+          "label": "Yoga Sutra 1.2 commentary overview",
+          "url": "https://ashtangamarga.com/en/yogasutra-translation/yogasutra-1-2-en/"
+        }
+      ],
+      "title": "Yoga Sutra 1.2 and Nervous System Stillness"
+    },
+    {
+      "_key": "652f6a3d4d44",
+      "_type": "article",
+      "category": "Holistic Health",
+      "content": "The Katha Upanishad's call to arise and awake is often quoted as inspiration, but its deeper value is architectural. It describes an entire model of change: clarify driver, steady reins, train senses, and continue toward the highest aim.\n\nMost healing failures come from skipping architecture. We attempt dramatic transformation without daily governance of attention, behavior, and environment. The chariot metaphor corrects this by emphasizing system over mood.\n\nStep one is driver clarity: define one guiding value for this season, such as steadiness, truth, or compassion. Step two is reins practice: protect attention through routines, boundaries, and transitions. Step three is horse training: align sensory habits, including sleep, food, media, and social input.\n\nThis is not rigid asceticism. It is intelligent sequencing. When the inner system is coherent, change requires less force. Motivation becomes less volatile because structure carries effort.\n\nThe Upanishad also reminds us that undisciplined senses lead to repeated cycles, while disciplined movement reaches the goal. In modern terms, this is the difference between reactive coping and intentional living.\n\nA useful weekly reflection: Where did my chariot run wild? Where did I guide it well? What one adjustment will I make this week? This keeps practice compassionate and cumulative.\n\nSustainable healing is rarely dramatic. It is directional. The ancient teaching points to exactly that: wakefulness expressed through repeated wise choices.\n\nArise and awake, then, is not a slogan. It is a method for embodied liberation.",
+      "excerpt": "Use the Upanishadic call to wakefulness as a long-term framework for behavior change and inner growth.",
+      "featuredImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Path through forest symbolizing awakening journey",
+      "references": [
+        {
+          "_key": "6279a3add771",
+          "_type": "sourceLink",
+          "label": "Katha Upanishad Third Valli (Sacred Texts)",
+          "url": "https://sacred-texts.com/hin/sbe15/sbe15012.htm"
+        },
+        {
+          "_key": "77a8d38ff761",
+          "_type": "sourceLink",
+          "label": "Katha Upanishad chariot allegory source",
+          "url": "https://www.tota.world/article/1281/"
+        }
+      ],
+      "title": "Arise, Awake: A Katha Upanishad Blueprint for Sustainable Healing"
+    }
+  ],
+  "curatedFavoriteArticleGroups": [
+    {
+      "_key": "LG1n1TA23rlJHxEr3vHfCZ",
+      "items": [
+        {
+          "_key": "LG1n1TA23rlJHxEr3vHfEF",
+          "title": "An Appreciation of Barbara Ann Brennan",
+          "url": "https://deanramsden.com/an-appreciation-of-barbara-ann-brennan/"
+        }
+      ],
+      "title": "Energy and Healing Lineages"
+    },
+    {
+      "_key": "LG1n1TA23rlJHxEr3vHfFv",
+      "items": [
+        {
+          "_key": "LG1n1TA23rlJHxEr3vHfHb",
+          "title": "The Beauty and Brilliance of Shadow Work",
+          "url": "https://www.google.com/amp/s/www.psychologytoday.com/us/blog/the-neurodivergent-therapist/202109/the-beauty-and-brilliance-of-shadow-work/amp"
+        }
+      ],
+      "title": "Shadow Work and Psychology"
+    }
+  ],
+  "curatedResearchPaperGroups": [
+    {
+      "_key": "LG1n1TA23rlJHxEr3vHexT",
+      "items": [
+        {
+          "_key": "LG1n1TA23rlJHxEr3vHez9",
+          "title": "PMC5871310",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5871310/"
+        },
+        {
+          "_key": "LG1n1TA23rlJHxEr3vHf0p",
+          "title": "PMC2034187",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2034187/"
+        }
+      ],
+      "title": "Consciousness and Mind-Body Research"
+    },
+    {
+      "_key": "LG1n1TA23rlJHxEr3vHf2V",
+      "items": [
+        {
+          "_key": "LG1n1TA23rlJHxEr3vHf4B",
+          "title": "ScienceDirect: S0965229925001220",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0965229925001220"
+        },
+        {
+          "_key": "LG1n1TA23rlJHxEr3vHf5r",
+          "title": "PubMed 11347280",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11347280/"
+        }
+      ],
+      "title": "Clinical and Applied Studies"
+    }
+  ],
+  "curatedBookReviews": [
+    "Personal review notes and reflections are curated here and updated regularly.",
+    "Use this section as a companion to the article and research links above."
+  ],
+  "researchSection": {
+    "_createdAt": "2026-04-13T17:11:36Z",
+    "_id": "8d6b0e39-3b89-4feb-8253-bd77e2f0c6fa",
+    "_rev": "ZEU2cNsthvdm9c4s9UjO0X",
+    "_system": {
+      "base": {
+        "id": "8d6b0e39-3b89-4feb-8253-bd77e2f0c6fa",
+        "rev": "spJDYytfA1kRjySanyKDHP"
+      }
+    },
+    "_type": "researchSection",
+    "_updatedAt": "2026-04-14T18:43:19Z",
+    "categories": [
+      {
+        "_key": "spJDYytfA1kRjySanyKDJr",
+        "_type": "researchCategory",
+        "description": "Mapping symbolic patterns to real-life emotional and behavioral growth.",
+        "items": [
+          "Transits and behavior cycles",
+          "Planetary symbolism in personal development"
+        ],
+        "title": "Astrology and archetypes"
+      },
+      {
+        "_key": "spJDYytfA1kRjySanyKDMJ",
+        "_type": "researchCategory",
+        "description": "Integrating trauma-aware methods, somatic tools, and energetic hygiene.",
+        "items": [
+          "Breath and vagal toning techniques",
+          "Daily energetic hygiene models"
+        ],
+        "title": "Energy and regulation"
+      },
+      {
+        "_key": "spJDYytfA1kRjySanyKDOl",
+        "_type": "researchCategory",
+        "description": "Research-backed reflective methods for safer and sustainable inner work.",
+        "items": [
+          "Parts work and projection awareness",
+          "Reflective writing and integration protocols"
+        ],
+        "title": "Conscious shadow integration"
+      },
+      {
+        "_key": "spJDYytfA1kRjySanyKDRD",
+        "_type": "researchCategory",
+        "description": "A whole-person model balancing spiritual insight with practical lifestyle support.",
+        "items": [
+          "Sleep, stress, and emotional resilience",
+          "Mind-body-spirit wellbeing frameworks"
+        ],
+        "title": "Holistic wellbeing"
+      }
+    ],
+    "lead": "Case studies to recognize symbolic patterns of planetary energies and their manifestation in life, thereby understanding the science of astrology. ",
+    "title": "Research"
+  },
+  "blogPosts": [
+    {
+      "_createdAt": "2026-04-13T17:48:04Z",
+      "_id": "d8a17e54-38f0-4e40-9eb5-9cad36c21e46",
+      "_rev": "ZEU2cNsthvdm9c4s9Jb9S5",
+      "_system": {
+        "base": {
+          "id": "d8a17e54-38f0-4e40-9eb5-9cad36c21e46",
+          "rev": "spJDYytfA1kRjySanyYSSB"
+        }
+      },
+      "_type": "blogPost",
+      "_updatedAt": "2026-04-13T18:07:55Z",
+      "category": "Spiritual Astrology",
+      "content": "This is a featured long-form editorial. Read the full immersive article here: https://groundedwithpranshi.com/blog-nakshatra-cycle.html\n\nIn this piece, we explore the cycle of life through nakshatra consciousness, the symbolic language of the 27 lunar mansions, and how Vedic timing traditions can be integrated into modern inner work with humility and depth.",
+      "excerpt": "On the 27 nakshatras, karmic timing, and the spiral of human life, with symbol references and source notes.",
+      "featuredImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80",
+      "featuredImageAlt": "Star-filled night sky over mountains for nakshatra editorial",
+      "order": 0,
+      "references": [
+        {
+          "_key": "ZEU2cNsthvdm9c4s9JVeo5",
+          "_type": "sourceLink",
+          "label": "Brihat Parashara Hora Shastra Chapter 3",
+          "url": "https://parashara.net/index.php?page=chapter3"
+        },
+        {
+          "_key": "ZEU2cNsthvdm9c4s9JVesD",
+          "_type": "sourceLink",
+          "label": "Taittiriya Brahmana reference notes",
+          "url": "https://en.wikipedia.org/wiki/Taittir%C4%ABya_Br%C4%81hma%E1%B9%87a"
+        },
+        {
+          "_key": "ZEU2cNsthvdm9c4s9JVewL",
+          "_type": "sourceLink",
+          "label": "Nakshatra symbols reference list",
+          "url": "https://www.selfrealisation.net/UK/VedicAstrology/symbol.htm"
+        }
+      ],
+      "title": "Nakshatra and the Cycle of Life: A Mystical Vedic Reflection"
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "e4bee91e-fde7-4da7-a287-af5c7b07b65d",
+      "_rev": "CLMhvm6VZSI2VvwFxThsI2",
+      "_system": {
+        "base": {
+          "id": "e4bee91e-fde7-4da7-a287-af5c7b07b65d",
+          "rev": "spJDYytfA1kRjySanyKDHP"
+        }
+      },
+      "_type": "blogPost",
+      "_updatedAt": "2026-04-13T17:52:12Z",
+      "category": "Faith",
+      "content": "\"The smallest seed of faith is better than the largest fruit of happiness.\" ΓÇö Henry David Thoreau \n\nIΓÇÖve spent my entire childhood in questioning and seeking almost everything in my life. When the fences of trust are so weak that betrayal walks into every step you take ahead, it seemed reasonable to find it on your own rather than to have faith in anything at all. Even science felt logical and the possibility that discoveries still happen and researches continue to modify our conclusive statements, IΓÇÖve started assuming everything in approximations and assumptions, and trust me, even there lacked a certain amount of much needed assertion. I realized that I knew most of it and yet there isnΓÇÖt any ground to stand on.\n\nAfter having explored a tiresome folklore of must-have milestones and running a different quest altogether to find oneself, I surrendered. No, not to any God or to some religion or any cult. But I just let the life take on, its course. In the helpless need to find some cure to my bodily ailments I had tried every approach existing out there to just relieve me of my physical misery. And thatΓÇÖs when I was introduced to energy healing.\n\nNow, when I say that IΓÇÖve found my faith in universe through energies, it doesnΓÇÖt really mean that everyone needs to do so, as for some lucky individuals have their faith in God, or religion, or any divine power they bow in front of. And itΓÇÖs damn beautiful!\n\nSurprisingly, IΓÇÖve found immense faith in the healing power of vibrations that is bestowed upon us as a blessing by the intangible yet so sensorily aesthetic form of universe ΓÇô music! Neurobiologically, as Robert Sapolsky (American neuroscientist, primatologist, and author who serves as the John A. and Cynthia Fry Gunn Professor at Stanford University, holding appointments in biology, neurology, and neurosurgery) also mentions how music can enhance brainΓÇÖs activity by its virtue of neuroplasticity. Perfect concoction of science and consciousness working together!\nFaith in anything that canΓÇÖt be seen but only be felt ΓÇô is the absolute power and freedom.\n\nBut IΓÇÖm not writing here about what is faith, or why should one needs to have it. IΓÇÖd rather want to pen the most blissfully positive transformation and manifestations it has brought to me, that even years of studying medical science, philosophy, psychology or even ancient texts from vedic astrology couldnΓÇÖt have convinced my stupidly logical brain to trust in something more divinely powerful.\n\nA belief - that my belief can be equally true to its core as long as it keeps me going on and holding onto life; just as much everyone else' is.\nAn act of surrender - that I don't have to control the life when it goes haywire, I just need to do my best and let the universe take care of everything. There's honestly a lot relief when you know that you aren't responsible for every event in your life, and that even if you can't see a tomorrow, there still exists one.\nStanding your ground - that it doesn't matter if people do not believe in what you do or how you do it. As long as it satiates your soul and brings you the inner peace, it's perfectly alright of an action, for here, universe needs you to take your action and there's no definition on what ground you should stand on as long as it brings peace to you and let you love unconditionally. You just need one! And the beaming energy of confidence that radiates out of you will protect you and fight for you in every herculean situation that life can throw at you. As for now, you are holding onto your roots and you won't wither away with any doubtful thoughts of fear and failure.\nBalance in action and thought - so long you are firm in your morale and able to practice unconditional love to the universe, you'll stay balanced in your approach and won't overdo the stubborn act of self-righteousness. As for faith keeps you going, but blind faith can make you cut and bleed; and there's a thin line of surrender that one crosses, confusing oneself into a egoistic powerful being and ends up disgracing the beauty of faith for everyone else. Hence letting go, what you can't possibly control. Yes, only having faith gives you such power and relief at the same time.\nFreedom from fear - that feeling free definitely does not mean that you can now be reckless, rather it urges you to take that step you've been merely thinking of. It doesn't have to be a successful endeavour each time, but you'll definitely end up creating something transformative out of your journey. As now there's no critical judgement or fear of failure, there's just pure love oozing out of every manifestation that you have just turned into a tangible memory.\nLiving a little more - that even when you hit the rock bottom, you can still choose to live and not stay dead. For, in that pit you can't see the world flourishing out there and that help has been sent to you. And it doesn't mean that the process hasn't started yet, you only get to know when it reaches you, and mind you, when it gets to you, you should be prepared to receive it! When you trust the process, you don't waste your breath in demise, you live more, you exist more, you exuberate more!!!\n\n\"Doubt is a pain too lonely to know that faith is his twin brother.\" ΓÇöKhalil Gibran\nYou are allowed to doubt and rectify your beliefs. ThatΓÇÖs a wise way to begin with and quite a trustworthy approach to know your truth. But when the gloomy darkness couldnΓÇÖt be confined in its fences and tries to take over your life, remember you still have its twin brother within your soul ΓÇô your own light!\n\nThat's how light illuminated my chaos, \nand faith ones restored only makes it more brighter.\n",
+      "excerpt": "Faith in anything that canΓÇÖt be seen but only be felt ΓÇô is the absolute power and freedom. But IΓÇÖm not writing here about what is faith, or why should one needs to have it. IΓÇÖd rather want to pen....",
+      "featuredImage": "https://groundedwithpranshi.wordpress.com/wp-content/uploads/2026/03/img_20260225_100419.jpg-edited.jpeg?allow_lossy=1",
+      "order": 1,
+      "title": "Welcome to the Groundedwithpranshi"
+    }
+  ],
+  "curatedReadings": [
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "f5740500-fdac-4762-b0da-a5db70cd202e",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "order": 1,
+      "section": "bookReviews",
+      "summary": "Personal review notes and reflections are curated here and updated regularly.",
+      "title": "Personal review notes and reflections are curated here and updated regularly."
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "d746d40b-e568-44bf-b06b-caf7d705ba9b",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "order": 2,
+      "section": "bookReviews",
+      "summary": "Use this section as a companion to the article and research links above.",
+      "title": "Use this section as a companion to the article and research links above."
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "de09fb10-af27-4942-bebd-9399949ffcb4",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "groupTitle": "Energy and Healing Lineages",
+      "order": 1,
+      "section": "favoriteArticles",
+      "title": "An Appreciation of Barbara Ann Brennan",
+      "url": "https://deanramsden.com/an-appreciation-of-barbara-ann-brennan/"
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "ed9dd683-9b13-49b8-bf2c-42260b176e8c",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "groupTitle": "Shadow Work and Psychology",
+      "order": 2,
+      "section": "favoriteArticles",
+      "title": "The Beauty and Brilliance of Shadow Work",
+      "url": "https://www.google.com/amp/s/www.psychologytoday.com/us/blog/the-neurodivergent-therapist/202109/the-beauty-and-brilliance-of-shadow-work/amp"
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "78841837-3666-40d8-ac8c-b54ec8b59863",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "groupTitle": "Clinical and Applied Studies",
+      "order": 3,
+      "section": "researchPapers",
+      "title": "ScienceDirect: S0965229925001220",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0965229925001220"
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "4f6726a8-d16e-4d48-aaf5-58c5b8a3bae0",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "groupTitle": "Clinical and Applied Studies",
+      "order": 4,
+      "section": "researchPapers",
+      "title": "PubMed 11347280",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11347280/"
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "6e57ceb8-e1aa-4bcc-a2fb-6d3bb12c4e13",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "groupTitle": "Consciousness and Mind-Body Research",
+      "order": 1,
+      "section": "researchPapers",
+      "title": "PMC5871310",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5871310/"
+    },
+    {
+      "_createdAt": "2026-04-13T17:11:36Z",
+      "_id": "dcc59cbc-ffbf-4a28-9b9a-19d8c6486890",
+      "_rev": "spJDYytfA1kRjySanyKDHP",
+      "_type": "curatedReading",
+      "_updatedAt": "2026-04-13T17:11:43Z",
+      "groupTitle": "Consciousness and Mind-Body Research",
+      "order": 2,
+      "section": "researchPapers",
+      "title": "PMC2034187",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2034187/"
+    }
+  ]
+}

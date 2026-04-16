@@ -1,0 +1,186 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+.btn {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 0.68rem 0.96rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+.btn-outline {
+  border-color: var(--primary);
+  color: var(--primary-dark);
+  background: transparent;
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.55rem;
+  max-width: 720px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #91d8d1;
+  padding: 0.66rem 0.75rem;
+  font: inherit;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #8ce8de;
+  border-color: var(--primary);
+}
+
+.form-status {
+  min-height: 1.2rem;
+  margin: 0.4rem 0 0;
+  font-weight: 600;
+  color: var(--primary-dark);
+}
+
+.newsletter-block {
+  padding: 1.6rem 1.2rem 0.5rem;
+}
+
+.newsletter-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  border: 1px solid var(--border);
+  background: rgba(157, 204, 244, 0.1);
+  border-radius: 16px;
+  padding: 1rem 1rem 1.15rem;
+  box-shadow: var(--shadow);
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  flex: 1 1 220px;
+  min-height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0 0.9rem;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+}
+
+.newsletter-form button {
+  min-height: 42px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #042140;
+  border-radius: 999px;
+  padding: 0 1rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.social-link {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--primary);
+  color: var(--primary-dark);
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.social-link svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.legal-links {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.legal-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.plain-list {
+  list-style: none;
+  padding: 0;
+}
+
+.plain-list li {
+  margin-bottom: 0.35rem;
+}
+
+.ganpati-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 222, 241, 0.18);
+  border: 1px solid rgba(255, 203, 235, 0.65);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd5ec;
+  box-shadow: 0 0 14px rgba(255, 170, 222, 0.4);
+}
+
+.blog-featured-image {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin: 0.25rem 0 0.75rem;
+  box-shadow: 0 8px 20px rgba(16, 61, 102, 0.18);
+}
+
+.service-theme-image {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(183, 144, 76, 0.45);
+  box-shadow: 0 10px 22px rgba(18, 37, 68, 0.2);
+  margin: 0 0 0.75rem;
+}

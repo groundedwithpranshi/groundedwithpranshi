@@ -1,0 +1,21 @@
+{
+  "name": "groundedwithpranshi-sanity-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "generate:blog": "node scripts/generate-blog-with-gemini.mjs"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@sanity/client": "^7.11.1",
+    "@sanity/vision": "^5.20.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "sanity": "^5.20.0",
+    "styled-components": "^6.1.15"
+  }
+}

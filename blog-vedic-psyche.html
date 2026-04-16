@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vedic Psyche | The Architecture of Fate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap");
+
+      :root {
+        --primary: #d2a85b;
+        --bg: #081a33;
+        --text: #eaf5ff;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background: linear-gradient(180deg, #07182f 0%, #0f2b4b 45%, #1b4876 100%);
+        color: var(--text);
+      }
+
+      h1,
+      h2,
+      h3,
+      .font-serif {
+        font-family: "Bodoni Moda", serif;
+      }
+
+      .chart-wrapper {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        max-width: 450px;
+        margin: 0 auto;
+      }
+
+      .energy-node {
+        transition: all 0.3s ease;
+      }
+
+      .energy-node:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary);
+        box-shadow: 0 10px 20px rgba(210, 168, 91, 0.2);
+      }
+
+      .root-divider {
+        height: 26px;
+        border-top: 2px solid rgba(210, 168, 91, 0.55);
+        border-radius: 60% 40% 0 0;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .ritual-line {
+        text-align: center;
+        color: #f6d8a0;
+        font-size: 12px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        margin-top: 8px;
+      }
+
+      .hero-night {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-moon {
+        position: absolute;
+        right: 10%;
+        top: 42px;
+        width: 130px;
+        height: 130px;
+        border-radius: 999px;
+        background: radial-gradient(circle, #ffc9eb 20%, #ff9fda 56%, rgba(255, 159, 218, 0.12) 78%);
+        box-shadow: 0 0 46px rgba(255, 169, 224, 0.62);
+        animation: moonPulse 8s ease-in-out infinite;
+      }
+
+      .hero-stars {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .hero-star {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: rgba(233, 247, 255, 0.95);
+        box-shadow: 0 0 10px rgba(222, 242, 255, 0.95);
+        animation: twinkle 3.7s ease-in-out infinite;
+      }
+
+      .hs1 { top: 50px; left: 16%; animation-delay: 0s; }
+      .hs2 { top: 92px; left: 33%; animation-delay: 0.8s; }
+      .hs3 { top: 76px; right: 30%; animation-delay: 1.5s; }
+      .hs4 { top: 148px; right: 18%; animation-delay: 2.2s; }
+      .hs5 { top: 180px; left: 48%; animation-delay: 2.8s; }
+
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.35; transform: scale(0.9); }
+        50% { opacity: 1; transform: scale(1.35); }
+      }
+
+      @keyframes moonPulse {
+        0%, 100% {
+          transform: scale(1);
+          box-shadow: 0 0 38px rgba(255, 169, 224, 0.52);
+        }
+        50% {
+          transform: scale(1.04);
+          box-shadow: 0 0 58px rgba(255, 176, 228, 0.78);
+        }
+      }
+
+      .post-share {
+        margin-top: 1rem;
+        padding-top: 0.85rem;
+        border-top: 1px solid rgba(183, 216, 243, 0.6);
+      }
+
+      .post-share h4 {
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+
+      .post-share-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+      }
+
+      .post-share-links a,
+      .post-share-links button {
+        width: 2.1rem;
+        height: 2.1rem;
+        border-radius: 999px;
+        border: 1px solid #b7d8f3;
+        background: #f2f8ff;
+        color: #163554;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .post-share-links a:hover,
+      .post-share-links button:hover {
+        border-color: #b8860b;
+        color: #b8860b;
+      }
+
+      .post-share-links svg {
+        width: 0.92rem;
+        height: 0.92rem;
+        fill: currentColor;
+      }
+    </style>
+  </head>
+  <body class="selection:bg-[#B8860B] selection:text-white">
+    <nav class="p-6 md:p-8 flex justify-between items-center border-b border-[#d2a85b]/25 sticky top-0 bg-[#0f2b4b]/85 backdrop-blur-md z-50 text-[#eaf5ff]">
+      <div class="text-2xl font-serif font-bold tracking-tighter">VEDIC<span class="text-[#B8860B]">PSYCHE</span></div>
+      <a href="blog.html" class="text-xs uppercase tracking-[0.2em] font-semibold hover:text-[#B8860B]">Back to Blog</a>
+    </nav>
+
+    <header class="max-w-6xl mx-auto px-6 pt-20 pb-24 text-center hero-night">
+      <div class="hero-moon" aria-hidden="true"></div>
+      <div class="hero-stars" aria-hidden="true">
+        <span class="hero-star hs1"></span>
+        <span class="hero-star hs2"></span>
+        <span class="hero-star hs3"></span>
+        <span class="hero-star hs4"></span>
+        <span class="hero-star hs5"></span>
+      </div>
+      <h1 class="text-5xl md:text-7xl font-serif mb-8 leading-[1.1]">The Planets are not objects.<br />They are your <span class="italic">Internal Currents</span>.</h1>
+      <p class="max-w-2xl mx-auto text-lg text-blue-100/80 font-light leading-relaxed">
+        In the ancient wisdom of Jyotish, we do not look at the sky to see our future. We look at the sky to see our reflection.
+      </p>
+    </header>
+    <div class="root-divider"></div>
+    <p class="ritual-line">pause • breathe • receive</p>
+
+    <section class="bg-[#102947]/70 py-20 border-y border-[#d2a85b]/20 px-6">
+      <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl font-serif mb-5 italic">The "Grasp" of the Grahas</h2>
+          <p class="text-blue-100/80 mb-5">
+            The Sanskrit word for planet is <strong>Graha</strong>, meaning "to seize." In Vedic psychology, planets are seen as forces that shape perception, behavior, and life patterning.
+          </p>
+          <p class="text-blue-100/80">When Mars is afflicted, the archetype of action can become aggression. When integrated, it becomes disciplined courage.</p>
+        </div>
+        <div class="space-y-4">
+          <h3 class="text-xs uppercase tracking-[0.2em] text-[#B8860B] font-bold">The Channeling Mechanism</h3>
+          <div class="energy-node p-4 border-l-2 border-[#9fc5ec]/45 bg-[#f7fcff] text-[#163554] rounded-r-lg"><h4 class="font-bold text-sm">The Atman (Soul)</h4></div>
+          <div class="energy-node p-4 border-l-2 border-[#9fc5ec]/45 bg-[#f7fcff] text-[#163554] rounded-r-lg"><h4 class="font-bold text-sm">The Chakras (Prana)</h4></div>
+          <div class="energy-node p-4 border-l-2 border-[#9fc5ec]/45 bg-[#f7fcff] text-[#163554] rounded-r-lg"><h4 class="font-bold text-sm">The Nervous System</h4></div>
+          <div class="energy-node p-4 border-l-2 border-[#B8860B] bg-[#f7fcff] text-[#163554] rounded-r-lg"><h4 class="font-bold text-sm">The Persona (Destiny)</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-serif mb-2">The Nine Archetypal Profiles</h2>
+          <p class="text-blue-100/80">Select an archetype to analyze its psychological influence.</p>
+        </div>
+        <div id="planet-gallery-nav" class="flex flex-wrap justify-center gap-2 mb-12 max-w-3xl mx-auto"></div>
+        <div class="bg-[#f9fcff] rounded-3xl shadow-xl overflow-hidden border border-[#b7d8f3] flex flex-col lg:flex-row text-[#163554]">
+          <div class="lg:w-1/2 p-8 md:p-12 flex flex-col items-center justify-center bg-[#f2f8ff] border-r border-[#d9e9f8]">
+            <div class="chart-wrapper z-10"><canvas id="archetypeRadar"></canvas></div>
+            <div class="mt-6 text-center px-6">
+              <h3 id="profile-name" class="text-4xl font-serif mb-2 italic">Sun (Surya)</h3>
+              <p id="profile-subtitle" class="text-[11px] uppercase tracking-[0.4em] font-bold text-gray-400">The Central Authority</p>
+            </div>
+          </div>
+          <div class="lg:w-1/2 p-8 md:p-12">
+            <h4 class="text-[10px] font-bold text-[#B8860B] uppercase tracking-widest mb-3">Psychological Core</h4>
+            <p id="profile-core" class="text-xl font-light text-gray-800 leading-relaxed mb-8"></p>
+            <div class="grid grid-cols-2 gap-8 mb-8">
+              <div><h4 class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Biological Axis</h4><p id="profile-bio" class="text-sm font-semibold"></p></div>
+              <div><h4 class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Chakra Hub</h4><p id="profile-chakra" class="text-sm font-semibold"></p></div>
+            </div>
+            <div class="space-y-4">
+              <div class="p-4 bg-green-50/50 rounded-xl border border-green-100"><h5 class="text-[9px] font-bold text-green-700 uppercase tracking-widest mb-1">Harmonious Expression</h5><p id="profile-harmony" class="text-sm text-gray-700 leading-relaxed"></p></div>
+              <div class="p-4 bg-red-50/50 rounded-xl border border-red-100"><h5 class="text-[9px] font-bold text-red-700 uppercase tracking-widest mb-1">Afflicted Expression</h5><p id="profile-affliction" class="text-sm text-gray-700 leading-relaxed"></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-6 bg-[#0e2745]/65">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-serif mb-3 italic">Temporal Tides</h2>
+        <p class="text-blue-100/80 mb-8 max-w-2xl">The Dasha system describes how planetary energies become dominant during different life chapters.</p>
+        <div class="bg-[#f9fcff] p-6 md:p-10 rounded-3xl shadow-xl border border-[#b7d8f3]">
+          <div class="h-[380px] w-full"><canvas id="dashaTimeline"></canvas></div>
+        </div>
+      </div>
+    </section>
+    <section class="py-8 px-6">
+      <div class="max-w-6xl mx-auto bg-[#f9fcff] text-[#163554] rounded-2xl p-6 border border-[#b7d8f3]" data-share-section data-share-title="Vedic Psyche | The Architecture of Fate"></div>
+    </section>
+    <div class="root-divider"></div>
+    <p class="ritual-line">ground • witness • evolve</p>
+
+    <footer class="py-16 px-6 bg-[#0a1f39] text-white text-center border-t border-[#d2a85b]/20">
+      <p class="text-3xl font-serif italic mb-6">As is the Microcosm, so is the Macrocosm.</p>
+      <p class="text-[10px] text-gray-400">Educational editorial adaptation for groundedwithpranshi blog.</p>
+    </footer>
+
+    <script>
+      const planets = {
+        sun: { name: "Sun (Surya)", subtitle: "The Sovereign Ego", core: "The central light of identity and conscious will.", bio: "Heart, Spine, Eyesight", chakra: "Solar Plexus", harmony: "Authentic confidence and steady radiance.", affliction: "Arrogance and dependence on external validation.", stats: [90, 40, 75, 60, 30, 50] },
+        moon: { name: "Moon (Chandra)", subtitle: "The Reflective Subconscious", core: "The emotional body and perceptual filter.", bio: "Brain, Fluids", chakra: "Sacral / Third Eye", harmony: "Emotional resilience and calm intuition.", affliction: "Anxiety and emotional volatility.", stats: [30, 95, 20, 40, 90, 95] },
+        mars: { name: "Mars (Mangala)", subtitle: "The Strategic Warrior", core: "Action, drive, and courage under pressure.", bio: "Muscles, Adrenals", chakra: "Root", harmony: "Focused discipline and healthy assertion.", affliction: "Impulsivity, anger, and burnout.", stats: [65, 25, 95, 80, 20, 35] },
+        mercury: { name: "Mercury (Budha)", subtitle: "The Alchemist of Speech", core: "Logic, language, and adaptive intelligence.", bio: "Nervous System, Lungs", chakra: "Throat", harmony: "Clear communication and insight.", affliction: "Overthinking and scattered attention.", stats: [95, 30, 50, 40, 60, 40] }
+      };
+
+      let radarChart;
+      function renderNav() {
+        const nav = document.getElementById("planet-gallery-nav");
+        Object.keys(planets).forEach((id) => {
+          const btn = document.createElement("button");
+          btn.className = "px-4 py-2 rounded-full border border-gray-200 text-[10px] font-bold uppercase tracking-widest hover:border-[#B8860B]";
+          btn.innerText = planets[id].name.split(" ")[0];
+          btn.onclick = () => updateProfile(id);
+          nav.appendChild(btn);
+        });
+      }
+      function updateProfile(id) {
+        const data = planets[id];
+        document.getElementById("profile-name").innerText = data.name;
+        document.getElementById("profile-subtitle").innerText = data.subtitle;
+        document.getElementById("profile-core").innerText = data.core;
+        document.getElementById("profile-bio").innerText = data.bio;
+        document.getElementById("profile-chakra").innerText = data.chakra;
+        document.getElementById("profile-harmony").innerText = data.harmony;
+        document.getElementById("profile-affliction").innerText = data.affliction;
+        updateRadar(data.stats);
+      }
+      function updateRadar(stats) {
+        const ctx = document.getElementById("archetypeRadar").getContext("2d");
+        if (radarChart) radarChart.destroy();
+        radarChart = new Chart(ctx, {
+          type: "radar",
+          data: { labels: ["Will", "Emotion", "Action", "Structure", "Connection", "Intuition"], datasets: [{ data: stats, backgroundColor: "rgba(184,134,11,0.2)", borderColor: "#B8860B", borderWidth: 2, pointRadius: 3 }] },
+          options: { responsive: true, maintainAspectRatio: false, scales: { r: { min: 0, max: 100, ticks: { display: false } } }, plugins: { legend: { display: false } } }
+        });
+      }
+      function initDashaChart() {
+        const ctx = document.getElementById("dashaTimeline").getContext("2d");
+        new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: Array.from({ length: 13 }, (_, i) => `Age ${i * 10}`),
+            datasets: [
+              { label: "Moon Period", data: [90, 80, 20, 10, 5, 5, 10, 20, 30, 40, 40, 30, 20], borderColor: "#CBD5E0", tension: 0.4 },
+              { label: "Rahu Period", data: [5, 10, 40, 95, 90, 80, 40, 20, 10, 5, 5, 5, 5], borderColor: "#4A5568", borderDash: [5, 5], tension: 0.4 },
+              { label: "Jupiter Period", data: [10, 15, 20, 30, 50, 70, 95, 90, 85, 80, 90, 95, 95], borderColor: "#B8860B", tension: 0.4 }
+            ]
+          },
+          options: { responsive: true, maintainAspectRatio: false, scales: { y: { display: false, min: 0, max: 100 }, x: { grid: { display: false } } }, plugins: { legend: { position: "top" } } }
+        });
+      }
+      document.addEventListener("DOMContentLoaded", () => {
+        renderNav();
+        updateProfile("sun");
+        initDashaChart();
+      });
+    </script>
+    <script src="/content/sanity-config.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

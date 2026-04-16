@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedic Astrology: The Psychological & Energetic Blueprint</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+body {
+    background-color: #0b0f19;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.cosmic-gradient {
+    background: linear-gradient(135deg, #2a0845 0%, #6441A5 100%);
+}
+.card {
+    background: #111827;
+    border: 1px solid #374151;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #FF007A, #00E5FF);
+}
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    max-height: 450px;
+}
+@media (min-width: 768px) {
+    .chart-container {
+        height: 400px;
+    }
+}
+.flow-box {
+    background: #1f2937;
+    border: 2px solid #00E5FF;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 229, 255, 0.2);
+}
+.flow-arrow {
+    font-size: 2rem;
+    color: #FF007A;
+    text-align: center;
+}
+h1, h2, h3 {
+    letter-spacing: -0.025em;
+}
+.post-share {
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(100, 65, 165, 0.5);
+}
+.post-share h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.post-share-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.post-share-links a,
+.post-share-links button {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  border: 1px solid #6a6e9c;
+  background: #131a2a;
+  color: #e2e8f0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+}
+.post-share-links a:hover,
+.post-share-links button:hover {
+  border-color: #00E5FF;
+  color: #00E5FF;
+}
+.post-share-links svg {
+  width: 0.92rem;
+  height: 0.92rem;
+  fill: currentColor;
+}
+</style>
+</head>
+<body class="antialiased">
+
+<nav class="p-6 md:p-8 flex justify-between items-center border-b border-[#6e5aa7]/30 sticky top-0 bg-[#0b0f19]/90 backdrop-blur-md z-50 text-[#e2e8f0]">
+  <div class="text-2xl font-bold tracking-tight">VEDIC<span class="text-[#00E5FF]">BLUEPRINT</span></div>
+  <a href="blog.html" class="text-xs uppercase tracking-[0.2em] font-semibold hover:text-[#00E5FF]">Back to Blog</a>
+</nav>
+
+<header class="cosmic-gradient text-white py-20 px-6 text-center shadow-2xl relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20 text-6xl flex flex-wrap justify-center items-center gap-10 overflow-hidden select-none pointer-events-none">
+        &#9728; &#9789; &#9794; &#9791; &#9795; &#9792; &#9796; &#9732; &#9733;
+    </div>
+    <div class="relative z-10 max-w-4xl mx-auto">
+        <div class="text-7xl mb-4">&#10022;</div>
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
+            The Anatomy of Destiny
+        </h1>
+        <p class="text-xl md:text-2xl font-light text-gray-200 mb-8 max-w-2xl mx-auto">
+            Planets in Vedic astrology are not merely celestial rocks. They are the psychological archetypes and active energies channeled through our soul and subtle body, actively shaping our human experience.
+        </p>
+        <div class="inline-block px-6 py-3 rounded-full bg-black bg-opacity-40 border border-cyan-400 text-cyan-300 font-semibold uppercase tracking-wider text-sm backdrop-blur-sm">
+            Interactive Psychological Analysis
+        </div>
+    </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+    <section>
+        <div class="text-center mb-10 max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4">The Psychological Maturation of Energies</h2>
+            <p class="text-gray-400 text-lg">
+                In Vedic psychology, our inner energies do not activate all at once. Specific planetary frequencies "mature" at exact ages, unlocking new psychological capacities, behavioral patterns, and life events. This chart visualizes the timeline of our psychological unfolding.
+            </p>
+        </div>
+        
+        <div class="card">
+            <h3 class="text-xl font-bold text-white mb-2 text-center">Age of Natural Planetary Maturation</h3>
+            <div class="chart-container">
+                <canvas id="maturationChart"></canvas>
+            </div>
+            <p class="text-sm text-gray-400 mt-6 text-center border-t border-gray-700 pt-4">
+                <span class="text-cyan-400 font-bold">Insight:</span> Jupiter's wisdom activates early (16), while the deep, structural discipline of Saturn only truly anchors into the psyche in the mid-30s. The Nodes (Rahu/Ketu) represent mature spiritual or material obsessions manifesting later in life.
+            </p>
+        </div>
+    </section>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="card flex flex-col justify-center">
+            <h2 class="text-3xl font-bold text-white mb-4">The Human Energy Matrix</h2>
+            <p class="text-gray-400 text-lg mb-6">
+                Each planet acts as a psychological lens. Our conscious actions and unconscious reactions are a blend of these seven primary colored energies. 
+            </p>
+            <ul class="space-y-4 text-gray-300">
+                <li class="flex items-start"><span class="text-yellow-400 text-xl mr-3">&#9728;</span><div><strong class="text-white">Sun (Surya):</strong> Core identity, ego strength, vitality.</div></li>
+                <li class="flex items-start"><span class="text-blue-200 text-xl mr-3">&#9789;</span><div><strong class="text-white">Moon (Chandra):</strong> Emotional intelligence, empathy, internal mind.</div></li>
+                <li class="flex items-start"><span class="text-red-500 text-xl mr-3">&#9794;</span><div><strong class="text-white">Mars (Mangal):</strong> Drive, boundaries, logic in action.</div></li>
+                <li class="flex items-start"><span class="text-green-400 text-xl mr-3">&#9791;</span><div><strong class="text-white">Mercury (Budha):</strong> Analytical processing, humor, communication.</div></li>
+                <li class="flex items-start"><span class="text-yellow-600 text-xl mr-3">&#9795;</span><div><strong class="text-white">Jupiter (Guru):</strong> Optimism, higher meaning, synthesis.</div></li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3 class="text-xl font-bold text-white mb-2 text-center">Psychological Trait Distribution</h3>
+            <div class="chart-container">
+                <canvas id="traitRadarChart"></canvas>
+            </div>
+            <p class="text-sm text-gray-400 mt-4 text-center">
+                Comparing the extreme psychological profiles of a Moon-dominant vs Mars-dominant psyche.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-center mb-10 max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4">Chakra Alignment & Frequency Mapping</h2>
+            <p class="text-gray-400 text-lg">
+                The cosmic bodies mirror the subtle body. Planets map directly to the chakras (energy centers) along the spine. The density of the energy dictates its psychological manifestation—from survival instincts at the root to expansive consciousness at the crown.
+            </p>
+        </div>
+
+        <div class="card">
+            <div id="chakraPlotly" class="w-full h-96"></div>
+            <p class="text-sm text-gray-400 mt-6 text-center border-t border-gray-700 pt-4">
+                <span class="text-pink-400 font-bold">Observation:</span> Heavy, dense psychological tasks (discipline, survival) are managed by Saturn at the lower frequencies. Lighter, illuminating energies (identity, mind) operate at higher frequencies through the Sun and Moon.
+            </p>
+          <div class="post-share mt-6" data-share-section data-share-title="Vedic Astrology: The Psychological & Energetic Blueprint"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-center mb-10 max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4">The Cycle: From Energy to Destiny</h2>
+            <p class="text-gray-400 text-lg">
+                Astrology is not fatalistic. It maps a psychological process. The planets indicate energy, which shapes thought, triggering action, creating habits, which ultimately crystallize as our perceived "destiny."
+            </p>
+        </div>
+
+        <div class="card max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
+                <div class="w-full md:w-1/5 flow-box"><div class="text-3xl mb-2">&#10022;</div><div class="text-sm uppercase tracking-wider text-gray-400 mb-1">Source</div>Planetary<br>Energy</div>
+                <div class="flow-arrow">&#10142;</div>
+                <div class="w-full md:w-1/5 flow-box" style="border-color: #FF007A;"><div class="text-3xl mb-2">&#9784;</div><div class="text-sm uppercase tracking-wider text-gray-400 mb-1">Chakra</div>Subtle<br>Body Intake</div>
+                <div class="flow-arrow">&#10142;</div>
+                <div class="w-full md:w-1/5 flow-box" style="border-color: #FFD700;"><div class="text-3xl mb-2">&#9788;</div><div class="text-sm uppercase tracking-wider text-gray-400 mb-1">Mind</div>Psychological<br>Filter</div>
+                <div class="flow-arrow">&#10142;</div>
+                <div class="w-full md:w-1/5 flow-box" style="border-color: #00FF66;"><div class="text-3xl mb-2">&#9874;</div><div class="text-sm uppercase tracking-wider text-gray-400 mb-1">World</div>Habitual<br>Action</div>
+                <div class="flow-arrow">&#10142;</div>
+                <div class="w-full md:w-1/5 flow-box" style="border-color: #B200FF;"><div class="text-3xl mb-2">&#9729;</div><div class="text-sm uppercase tracking-wider text-gray-400 mb-1">Result</div>Manifested<br>Destiny</div>
+            </div>
+            <div class="mt-8 text-center text-gray-300 max-w-2xl mx-auto">
+                By bringing conscious awareness to the "Psychological Filter" stage, the individual exercises free will, altering the output of the planetary energy from a forced reaction into a conscious response.
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="bg-black py-8 text-center text-gray-500 text-sm mt-12 border-t border-gray-800">
+    <p>Synthesized Visualization of Vedic Psychological Frameworks</p>
+    <p class="mt-2 text-xs">A single-page application utilizing Chart.js & Plotly.js without external vector graphics.</p>
+</footer>
+
+<script>
+function wrapLabel(str) {
+    if (str.length <= 16) return str;
+    let lines = [];
+    let currentLine = "";
+    let words = str.split(' ');
+    words.forEach(word => {
+        if ((currentLine + " " + word).trim().length > 16) {
+            lines.push(currentLine.trim());
+            currentLine = word;
+        } else {
+            currentLine += " " + word;
+        }
+    });
+    if (currentLine) lines.push(currentLine.trim());
+    return lines;
+}
+
+const tooltipConfig = {
+    callbacks: {
+        title: function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        }
+    }
+};
+
+const rawMaturationLabels = ['Jupiter (Wisdom & Purpose)', 'Sun (Core Identity & Ego)', 'Moon (Emotions & Inner Mind)', 'Venus (Relationships & Values)', 'Mars (Courage & Boundaries)', 'Mercury (Intellect & Speech)', 'Saturn (Discipline & Reality)', 'Rahu (Obsession & Ambition)', 'Ketu (Detachment & Intuition)'];
+const wrappedMaturationLabels = rawMaturationLabels.map(wrapLabel);
+
+const ctxMaturation = document.getElementById('maturationChart').getContext('2d');
+new Chart(ctxMaturation, {
+    type: 'bar',
+    data: {
+        labels: wrappedMaturationLabels,
+        datasets: [{
+            label: 'Age of Activation',
+            data: [16, 22, 24, 25, 28, 32, 36, 42, 48],
+            backgroundColor: ['#FFD700', '#FF8C00', '#E0F2FE', '#FF007A', '#EF4444', '#10B981', '#4B5563', '#8B5CF6', '#A78BFA'],
+            borderWidth: 0,
+            borderRadius: 6
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: tooltipConfig },
+        scales: {
+            y: { beginAtZero: true, grid: { color: '#374151' }, ticks: { color: '#9CA3AF' }, title: { display: true, text: 'Age (Years)', color: '#D1D5DB' } },
+            x: { grid: { display: false }, ticks: { color: '#9CA3AF', maxRotation: 45, minRotation: 45 } }
+        }
+    }
+});
+
+const rawRadarLabels = ['Empathy & Nurturing', 'Aggression & Drive', 'Analytical Logic', 'Ego & Leadership', 'Discipline & Structure', 'Abstract Wisdom'];
+const wrappedRadarLabels = rawRadarLabels.map(wrapLabel);
+
+const ctxRadar = document.getElementById('traitRadarChart').getContext('2d');
+new Chart(ctxRadar, {
+    type: 'radar',
+    data: {
+        labels: wrappedRadarLabels,
+        datasets: [
+            { label: 'Moon Dominant Psyche', data: [90, 20, 40, 30, 20, 70], backgroundColor: 'rgba(0, 229, 255, 0.2)', borderColor: '#00E5FF', pointBackgroundColor: '#00E5FF', borderWidth: 2 },
+            { label: 'Mars Dominant Psyche', data: [15, 95, 60, 80, 50, 20], backgroundColor: 'rgba(255, 0, 122, 0.2)', borderColor: '#FF007A', pointBackgroundColor: '#FF007A', borderWidth: 2 }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { labels: { color: '#D1D5DB' } }, tooltip: tooltipConfig },
+        scales: { r: { angleLines: { color: '#374151' }, grid: { color: '#374151' }, pointLabels: { color: '#D1D5DB', font: { size: 11 } }, ticks: { display: false, max: 100 } } }
+    }
+});
+
+const plotlyData = [{
+    x: [1, 2, 3, 4, 5, 6, 6.5],
+    y: [10, 25, 40, 60, 75, 90, 100],
+    mode: 'markers+text',
+    type: 'scattergl',
+    name: 'Planetary Frequencies',
+    text: ['Saturn (Root)', 'Jupiter (Sacral)', 'Mars (Solar)', 'Venus (Heart)', 'Mercury (Throat)', 'Moon (Third Eye)', 'Sun (Soul)'],
+    textposition: 'top center',
+    textfont: { family: 'sans-serif', size: 14, color: '#E2E8F0' },
+    marker: { size: [35, 30, 25, 20, 15, 25, 40], color: ['#4B5563', '#FFD700', '#EF4444', '#FF007A', '#10B981', '#E0F2FE', '#FF8C00'], line: { color: '#FFFFFF', width: 2 }, opacity: 0.9 },
+    hovertemplate: '<b>%{text}</b><br>Energy Density: %{y}<br>Chakra Level: %{x}<extra></extra>'
+}];
+
+const plotlyLayout = {
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    margin: { t: 40, b: 60, l: 60, r: 40 },
+    xaxis: { title: { text: 'Subtle Body Level (Root to Crown)', font: { color: '#D1D5DB' } }, tickfont: { color: '#9CA3AF' }, showgrid: true, gridcolor: '#374151', zeroline: false, range: [0, 7.5] },
+    yaxis: { title: { text: 'Vibrational Frequency / Lighness', font: { color: '#D1D5DB' } }, tickfont: { color: '#9CA3AF' }, showgrid: true, gridcolor: '#374151', zeroline: false },
+    hovermode: 'closest'
+};
+
+Plotly.newPlot('chakraPlotly', plotlyData, plotlyLayout, {displayModeBar: false, responsive: true});
+</script>
+<script src="/content/sanity-config.js"></script>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
