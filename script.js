@@ -491,9 +491,8 @@ function setServiceList(selector, items) {
   node.innerHTML = items
     .map(
       (item) =>
-        `${item} - <a href="https://calendly.com/groundedwithpranshi/30min" target="_blank" rel="noopener noreferrer">Book</a>`
+        `<li><a href="https://calendly.com/groundedwithpranshi/30min" target="_blank" rel="noopener noreferrer">${item}</a></li>`
     )
-    .map((line) => `<li>${line}</li>`)
     .join("");
 }
 

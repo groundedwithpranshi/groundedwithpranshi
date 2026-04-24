@@ -146,8 +146,17 @@
   padding: 0 0 0 1.25rem;
 }
 
-.plain-list li {
-  margin-bottom: 0.35rem;
+.plain-list li a {
+  color: var(--muted);
+  text-decoration: none;
+  display: block;
+  padding: 0.2rem 0;
+  transition: color 0.2s ease;
+}
+
+.plain-list li a:hover {
+  color: var(--primary);
+  text-decoration: underline;
 }
 
 .ganpati-badge {
