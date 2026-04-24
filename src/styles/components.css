@@ -262,3 +262,79 @@
 [id^="article-"] {
   scroll-margin-top: 6rem;
 }
+
+/* Blog Tiles */
+.blog-tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(16, 61, 102, 0.15);
+}
+
+.blog-tile .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.tile-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+/* Article Modal */
+.article-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 33, 64, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.article-modal-content {
+  background: var(--surface);
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  padding: 2.5rem 2rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--muted);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.article-modal-body {
+  margin: 1.5rem 0;
+  line-height: 1.8;
+}
+
+.article-modal-body h4 {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .article-modal-content {
+    padding: 2rem 1.25rem;
+  }
+}

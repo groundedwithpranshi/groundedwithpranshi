@@ -262,44 +262,90 @@ function renderBlogArticles(articles) {
 
   container.innerHTML = articles
     .map((article) => {
-      const paragraphs = String(article.content || "")
-        .split(/\n{2,}/)
-        .map((paragraph) => paragraph.trim())
-        .filter(Boolean)
-        .map((paragraph) => `<p>${paragraph}</p>`)
-        .join("");
-
-      const references = Array.isArray(article.references) ? article.references : [];
-      const referencesHtml =
-        references.length > 0
-          ? `<h4>Sources</h4><ul class="plain-list">${references
-              .map(
-                (reference) =>
-                  `<li><a href="${reference.url}" target="_blank" rel="noopener noreferrer">${reference.label}</a></li>`
-              )
-              .join("")}</ul>`
-          : "";
-
       const featuredImageHtml = article.featuredImage
         ? `<img class="blog-featured-image" src="${article.featuredImage}" alt="${article.featuredImageAlt || article.title || "Blog featured image"}" loading="lazy" />`
         : "";
-      const shareHtml = buildShareSection(article);
-
+      
       const articleId = buildArticleId(article.title || "");
 
       return `
-      <article class="card" id="${articleId}">
+      <article class="card blog-tile" id="${articleId}">
         <p class="eyebrow">${article.category || "Blog"}</p>
         ${featuredImageHtml}
         <h3>${article.title || ""}</h3>
-        <p><em>${article.excerpt || ""}</em></p>
-        ${paragraphs}
-        ${referencesHtml}
-        ${shareHtml}
+        <p class="tile-excerpt"><em>${article.excerpt || ""}</em></p>
+        <button class="btn btn-outline" data-article-trigger="${articleId}">Read Full Article</button>
       </article>
     `;
     })
     .join("");
+  
+  wireArticleTriggers(articles);
+}
+
+function wireArticleTriggers(articles) {
+  const buttons = document.querySelectorAll("[data-article-trigger]");
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const articleId = button.getAttribute("data-article-trigger");
+      const article = articles.find(a => buildArticleId(a.title) === articleId);
+      if (article) {
+        showArticleModal(article);
+      }
+    });
+  });
+}
+
+function showArticleModal(article) {
+  const paragraphs = String(article.content || "")
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean)
+    .map((paragraph) => `<p>${paragraph}</p>`)
+    .join("");
+
+  const references = Array.isArray(article.references) ? article.references : [];
+  const referencesHtml =
+    references.length > 0
+      ? `<h4>Sources</h4><ul class="plain-list">${references
+          .map(
+            (reference) =>
+              `<li><a href="${reference.url}" target="_blank" rel="noopener noreferrer">${reference.label}</a></li>`
+          )
+          .join("")}</ul>`
+      : "";
+
+  const shareHtml = buildShareSection(article);
+
+  // Create modal overlay
+  const modal = document.createElement("div");
+  modal.className = "article-modal";
+  modal.innerHTML = `
+    <div class="article-modal-content card">
+      <button class="modal-close" aria-label="Close article">&times;</button>
+      <p class="eyebrow">${article.category || "Blog"}</p>
+      <h2>${article.title || ""}</h2>
+      <div class="article-modal-body">
+        ${paragraphs}
+        ${referencesHtml}
+      </div>
+      ${shareHtml}
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+  document.body.style.overflow = "hidden"; // Prevent scrolling
+
+  const close = modal.querySelector(".modal-close");
+  const closeModal = () => {
+    document.body.removeChild(modal);
+    document.body.style.overflow = "";
+  };
+
+  close.onclick = closeModal;
+  modal.onclick = (e) => {
+    if (e.target === modal) closeModal();
+  };
 }
 
 function buildShareSection(article) {
