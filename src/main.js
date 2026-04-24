@@ -1,6 +1,10 @@
+import { inject } from '@vercel/analytics';
 import { loadSiteContent, enhanceStaticShareSections } from "./api/sanity";
 import { initForms, renderNewsletterSignup } from "./ui/forms";
 import { initAnimations } from "./ui/animations";
+
+// Initialize Vercel Analytics
+inject();
 
 // Initialize everything on DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
