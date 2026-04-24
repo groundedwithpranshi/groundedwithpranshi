@@ -315,19 +315,19 @@ function buildShareSectionMarkup(titleText, urlText) {
       <h4>Share this post</h4>
       <div class="post-share-links">
         <a class="share-icon-btn" href="https://wa.me/?text=${title}%20${shareUrl}" target="_blank" rel="noopener noreferrer" aria-label="Share on WhatsApp" title="Share on WhatsApp">
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.6 2.4A7.86 7.86 0 0 0 8 0a7.95 7.95 0 0 0-6.9 11.9L0 16l4.2-1.1A7.95 7.95 0 1 0 13.6 2.4ZM8 14.5a6.5 6.5 0 0 1-3.3-.9l-.2-.1-2.5.7.7-2.4-.2-.2A6.5 6.5 0 1 1 8 14.5Zm3.6-4.8c-.2-.1-1-.5-1.1-.6-.2-.1-.3-.1-.4.1-.1.2-.5.6-.6.7-.1.1-.2.1-.4 0-.9-.4-1.6-1-2.2-1.9-.1-.2 0-.3.1-.4.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.2 0-.3s-.4-1-.6-1.4c-.2-.4-.4-.3-.6-.3h-.5c-.2 0-.4.1-.5.3-.2.2-.7.7-.7 1.7s.7 1.9.8 2c.1.1 1.4 2.2 3.4 3 .5.2.8.3 1.1.4.5.1.9.1 1.2.1.4-.1 1-.5 1.2-1 .2-.5.2-.9.1-1 0-.1-.2-.1-.4-.2Z"/></svg>
+          <svg viewBox="0 0 16 16" aria-hidden="true" style="width: 0.85rem; height: 0.85rem;"><path d="M13.6 2.4A7.86 7.86 0 0 0 8 0a7.95 7.95 0 0 0-6.9 11.9L0 16l4.2-1.1A7.95 7.95 0 1 0 13.6 2.4ZM8 14.5a6.5 6.5 0 0 1-3.3-.9l-.2-.1-2.5.7.7-2.4-.2-.2A6.5 6.5 0 1 1 8 14.5Zm3.6-4.8c-.2-.1-1-.5-1.1-.6-.2-.1-.3-.1-.4.1-.1.2-.5.6-.6.7-.1.1-.2.1-.4 0-.9-.4-1.6-1-2.2-1.9-.1-.2 0-.3.1-.4.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.2 0-.3s-.4-1-.6-1.4c-.2-.4-.4-.3-.6-.3h-.5c-.2 0-.4.1-.5.3-.2.2-.7.7-.7 1.7s.7 1.9.8 2c.1.1 1.4 2.2 3.4 3 .5.2.8.3 1.1.4.5.1.9.1 1.2.1.4-.1 1-.5 1.2-1 .2-.5.2-.9.1-1 0-.1-.2-.1-.4-.2Z"/></svg>
         </a>
         <a class="share-icon-btn" href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook" title="Share on Facebook">
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M16 8.05A8 8 0 1 0 6.75 15.95v-5.63H4.72V8.05h2.03V6.32c0-2 1.2-3.1 3.02-3.1.87 0 1.78.15 1.78.15v1.97h-1c-.98 0-1.28.6-1.28 1.23v1.48h2.19l-.35 2.27H9.27v5.63A8 8 0 0 0 16 8.05Z"/></svg>
+          <svg viewBox="0 0 16 16" aria-hidden="true" style="width: 0.85rem; height: 0.85rem;"><path d="M16 8.05A8 8 0 1 0 6.75 15.95v-5.63H4.72V8.05h2.03V6.32c0-2 1.2-3.1 3.02-3.1.87 0 1.78.15 1.78.15v1.97h-1c-.98 0-1.28.6-1.28 1.23v1.48h2.19l-.35 2.27H9.27v5.63A8 8 0 0 0 16 8.05Z"/></svg>
         </a>
         <a class="share-icon-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn" title="Share on LinkedIn">
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1.2 2.1C1.2 1.5 1.7 1 2.3 1s1.1.5 1.1 1.1-.5 1.1-1.1 1.1S1.2 2.7 1.2 2.1ZM1.3 4.1h2V15h-2V4.1ZM5.1 4.1H7v1.5h.1c.3-.6 1.1-1.7 2.7-1.7 2.9 0 3.4 1.9 3.4 4.4V15h-2V9.2c0-1.4 0-3.2-1.9-3.2-1.9 0-2.2 1.5-2.2 3.1V15h-2V4.1Z"/></svg>
+          <svg viewBox="0 0 16 16" aria-hidden="true" style="width: 0.85rem; height: 0.85rem;"><path d="M1.2 2.1C1.2 1.5 1.7 1 2.3 1s1.1.5 1.1 1.1-.5 1.1-1.1 1.1S1.2 2.7 1.2 2.1ZM1.3 4.1h2V15h-2V4.1ZM5.1 4.1H7v1.5h.1c.3-.6 1.1-1.7 2.7-1.7 2.9 0 3.4 1.9 3.4 4.4V15h-2V9.2c0-1.4 0-3.2-1.9-3.2-1.9 0-2.2 1.5-2.2 3.1V15h-2V4.1Z"/></svg>
         </a>
         <a class="share-icon-btn" href="mailto:?subject=${title}&body=${shareUrl}" aria-label="Share by Email" title="Share by Email">
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1.5 3h13A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5v-7A1.5 1.5 0 0 1 1.5 3Zm0 1L8 8.3 14.5 4h-13Zm13.5 1.2L8.4 9.6a.8.8 0 0 1-.8 0L1 5.2v6.3c0 .3.2.5.5.5h13c.3 0 .5-.2.5-.5V5.2Z"/></svg>
+          <svg viewBox="0 0 16 16" aria-hidden="true" style="width: 0.85rem; height: 0.85rem;"><path d="M1.5 3h13A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5v-7A1.5 1.5 0 0 1 1.5 3Zm0 1L8 8.3 14.5 4h-13Zm13.5 1.2L8.4 9.6a.8.8 0 0 1-.8 0L1 5.2v6.3c0 .3.2.5.5.5h13c.3 0 .5-.2.5-.5V5.2Z"/></svg>
         </a>
         <button class="share-icon-btn" type="button" data-share-copy-url="${rawUrl}" aria-label="Copy link" title="Copy link">
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 1a2 2 0 0 1 2 2v1h-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1v1H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h6Zm2 4a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6Zm0 1H6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Z"/></svg>
+          <svg viewBox="0 0 16 16" aria-hidden="true" style="width: 0.85rem; height: 0.85rem;"><path d="M10 1a2 2 0 0 1 2 2v1h-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1v1H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h6Zm2 4a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6Zm0 1H6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Z"/></svg>
         </button>
       </div>
     </section>

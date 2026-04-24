@@ -136,38 +136,6 @@ export default defineType({
       ]
     }),
     defineField({
-      name: "blogArticles",
-      type: "array",
-      of: [
-        {
-          name: "article",
-          type: "object",
-          fields: [
-            defineField({ name: "title", type: "string" }),
-            defineField({ name: "category", type: "string" }),
-            defineField({ name: "featuredImage", title: "Featured Image URL", type: "url" }),
-            defineField({ name: "featuredImageAlt", type: "string" }),
-            defineField({ name: "excerpt", type: "text" }),
-            defineField({ name: "content", title: "Article Content", type: "text" }),
-            defineField({
-              name: "references",
-              type: "array",
-              of: [
-                {
-                  name: "sourceLink",
-                  type: "object",
-                  fields: [
-                    defineField({ name: "label", type: "string" }),
-                    defineField({ name: "url", title: "URL", type: "url" })
-                  ]
-                }
-              ]
-            })
-          ]
-        }
-      ]
-    }),
-    defineField({
       name: "curatedFavoriteArticleGroups",
       type: "array",
       of: [

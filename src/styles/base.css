@@ -17,6 +17,11 @@
   box-sizing: border-box;
 }
 
+svg {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Cormorant Garamond", "Times New Roman", serif;

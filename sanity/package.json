@@ -7,12 +7,14 @@
     "dev": "sanity dev",
     "build": "sanity build",
     "deploy": "sanity deploy",
-    "generate:blog": "node scripts/generate-blog-with-gemini.mjs"
+    "generate:blog": "node scripts/generate-blog-with-gemini.mjs",
+    "migrate:articles": "node scripts/migrate-articles.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@sanity/client": "^7.11.1",
     "@sanity/vision": "^5.20.0",
+    "dotenv": "^16.4.5",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "sanity": "^5.20.0",

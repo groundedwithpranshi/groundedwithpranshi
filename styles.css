@@ -24,8 +24,10 @@ body {
 }
 
 .container {
-  width: min(1100px, 92%);
+  width: 100%;
+  max-width: 1100px;
   margin: 0 auto;
+  padding: 0 1.25rem;
 }
 
 .site-header {
@@ -413,14 +415,14 @@ select {
 
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
 }
 
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
 }
 
 .btn {
@@ -472,6 +474,9 @@ select {
 
 .post-share h4 {
   margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  font-weight: 500;
 }
 
 .post-share-links {
@@ -499,8 +504,8 @@ select {
 }
 
 .share-icon-btn {
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 1.75rem;
+  height: 1.75rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -508,8 +513,8 @@ select {
 }
 
 .share-icon-btn svg {
-  width: 1rem;
-  height: 1rem;
+  width: 0.85rem !important;
+  height: 0.85rem !important;
   fill: currentColor;
 }
 
@@ -595,7 +600,7 @@ select {
 .booking-list,
 .plain-list {
   margin: 0.5rem 0 0;
-  padding-left: 1.1rem;
+  padding-left: 1.25rem;
 }
 
 .booking-list li,
@@ -876,9 +881,7 @@ select {
 }
 
 @media (max-width: 900px) {
-  .hero-grid,
-  .grid-3,
-  .grid-2 {
+  .hero-grid {
     grid-template-columns: 1fr;
   }
 
@@ -890,5 +893,15 @@ select {
   .footer-meta {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .grid-3, .grid-2 {
+    grid-template-columns: 1fr;
   }
 }

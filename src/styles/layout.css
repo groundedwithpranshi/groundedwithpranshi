@@ -1,6 +1,8 @@
 .container {
-  width: min(1100px, 92%);
+  width: 100%;
+  max-width: 1100px;
   margin: 0 auto;
+  padding: 0 1.25rem;
 }
 
 .site-header {
@@ -85,14 +87,14 @@
 
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
 }
 
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
 }
 
 .stack {
@@ -115,9 +117,7 @@
 }
 
 @media (max-width: 900px) {
-  .hero-grid,
-  .grid-3,
-  .grid-2 {
+  .hero-grid {
     grid-template-columns: 1fr;
   }
 
@@ -129,5 +129,15 @@
   .footer-meta {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .grid-3, .grid-2 {
+    grid-template-columns: 1fr;
   }
 }
