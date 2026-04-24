@@ -503,19 +503,21 @@ select {
   color: var(--accent-dark);
 }
 
-.share-icon-btn {
-  width: 1.75rem;
-  height: 1.75rem;
+.post-share-links .share-icon-btn {
+  width: 2.1rem;
+  height: 2.1rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 0 !important;
+  border-radius: 50%;
 }
 
 .share-icon-btn svg {
-  width: 0.85rem !important;
-  height: 0.85rem !important;
+  width: 1.1rem !important;
+  height: 1.1rem !important;
   fill: currentColor;
+  display: block;
 }
 
 .blog-category-link {
