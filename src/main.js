@@ -6,6 +6,23 @@ import { initAnimations } from "./ui/animations";
 // Initialize Vercel Analytics
 inject();
 
+// Initialize Google Analytics (GA4)
+function initGoogleAnalytics(id) {
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
+  document.head.appendChild(script);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", id);
+}
+
+initGoogleAnalytics("G-BWWVJT58WF");
+
 // Initialize everything on DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
   // Load dynamic content from Sanity
